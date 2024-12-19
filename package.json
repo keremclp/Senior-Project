@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
+
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -28,6 +30,7 @@
     "xss-clean": "^0.1.1"
   },
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "nodemon": "^2.0.9"
   },
   "engines": {
